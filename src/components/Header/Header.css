@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-link {
+  height: 3.125rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3.125rem;
+}
+
+.header-link.active {
+  background-color: #fff;
+}
+
+.header-link:hover {
+  background-color: #ffffffbb;
+}

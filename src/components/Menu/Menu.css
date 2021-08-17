@@ -1,0 +1,29 @@
+.menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f82f955;
+  border-radius: 0.625rem;
+}
+
+.menu-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.125rem;
+  background-color: #02020265;
+}
+
+.menu-item-wrapper {
+  border-left: 1px solid #ffffff44;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu {
+  margin-left: 2.5rem;
+}

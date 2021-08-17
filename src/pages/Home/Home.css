@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary-btn {
+  margin-top: 1.875rem;
+  padding: 0.625rem;
+  background: rgb(59, 103, 166);
+  background: linear-gradient(
+    8deg,
+    rgba(59, 103, 166, 0.7539390756302521) 0%,
+    rgba(15, 110, 249, 0.7595413165266106) 10%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: none;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  width: 9.375rem;
+  font-size: 0.938rem;
+  cursor: pointer;
+}
